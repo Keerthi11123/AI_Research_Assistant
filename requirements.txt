@@ -1,0 +1,10 @@
+langchain
+langchain-community
+chromadb
+sentence-transformers
+transformers
+accelerate
+streamlit
+PyMuPDF
+beautifulsoup4
+requests
