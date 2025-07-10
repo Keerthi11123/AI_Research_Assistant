@@ -16,7 +16,7 @@ from langchain_community.llms import HuggingFacePipeline
 
 def create_qa_chain(vector_store):
     # Load a stronger local model (e.g., 'flan-t5-small', 'flan-t5-base', or 'flan-t5-large' can be used based on your requirement)
-    pipe = pipeline("text2text-generation", model="google/flan-t5-large", max_length=512)
+    pipe = pipeline("text2text-generation", model="google/flan-t5-base", max_length=512)
     llm = HuggingFacePipeline(pipeline=pipe)
 
     retriever = vector_store.as_retriever()
