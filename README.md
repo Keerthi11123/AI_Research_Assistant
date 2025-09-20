@@ -55,5 +55,5 @@ pipe = pipeline("text2text-generation", model="google/flan-t5-large", max_length
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/ai-research-assistant.git
-cd ai-research-assistant
+git clone https://github.com/Keerthi11123/AI_Research_Assistant.git
+cd AI_Research_Assistant
